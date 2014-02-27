@@ -1,0 +1,9 @@
+{
+	"name": "atomita/php-facade",
+	"keywords": ["facade"],
+	"license": "MIT",
+	"version": "0.0.1",
+	"autoload": {
+		"classmap": ["src/Atomita/"]
+	}
+}
