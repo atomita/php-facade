@@ -1,7 +1,7 @@
 {
 	"name": "atomita/php-facade",
 	"keywords": ["facade"],
-	"license": "MIT",
+	"license": "LGPLv3",
 	"version": "0.0.1",
 	"autoload": {
 		"classmap": ["src/Atomita/"]
