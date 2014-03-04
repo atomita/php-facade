@@ -5,7 +5,7 @@ namespace Atomita;
 /**
  * 
  */
-class SimpleFacade extends Facade
+class SingleFacade extends Facade
 {
 
 	static protected function facadeInstance()
