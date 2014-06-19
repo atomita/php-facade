@@ -12,7 +12,7 @@ abstract class FacadeAEasy extends Facade
 	{
 		static $instans = array();
 
-		$class = '\\' . rtrim(get_called_class(), 'Facade');
+		$class = '\\' . substr(get_called_class(), 0, -6); // -6 = strlen('Facade') * -1
 
 		if (!isset($instans[$class])){
 			$instans[$class] = new $class();
