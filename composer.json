@@ -4,6 +4,6 @@
 	"license": "LGPLv3",
 	"version": "0.1.0",
 	"autoload": {
-		"classmap": ["src/Atomita/"]
+		"classmap": ["src/atomita/"]
 	}
 }
